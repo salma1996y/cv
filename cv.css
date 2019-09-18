@@ -8,3 +8,123 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.all{ 
+  
+ /*المسافه بين النص والاشاء الثانيه الي حوله*/
+/*    border: 47% ; */
+   /*زي الاطار*/
+  position: relative;/*اتوقع يخلي الويدث والهاي يشتغلون بمحيط البوكس ولا يشطحون */
+  width:400px;
+  height:100px;
+    opacity: 0.72;
+/*   padding-top:4%; */
+    margin: 200px 300px;
+/*     margin-left: 340px ; */
+/*     margin-top: 275px; */
+
+}
+.salma {
+ position: absolute; 
+/*   اتوق يخلي النصوص عادي يتداخن مع بعض   */
+  width:30%;
+  height:70%;
+ text-align:center; /*تخلي النص بالوسط*/   
+/* /*   padding-top:1%;/*المسافه بين النص والي فوقه يعني ينزل النص تحت*/  */ */
+  color:#E0E0E0;
+  background:#D7CCC8;
+      border-radius: 15px 15px 15px 15px;
+}
+ a {
+   position: absolute;
+    font-size:1.8rem;
+  color : #757575;
+/*  text-decoration:none; /*الخط الي تحت الرابط*/  */
+/*  margin-right:1px; /*المسافه بين الينك والينك الثاني*/  */
+/*   margin-left:0px; */
+    border: 1px solid red; 
+      padding:2px;
+     margin: -29px 33px;
+    right:0;
+   
+}
+h5{
+  position: absolute;/*اتوق يخلي النصوص عادي يتداخن مع بعض*/ 
+  background: #263238;
+       margin: 8px 22px ;
+}
+
+
+#cv{
+    position: absolute;
+/*    margin:10px -190px; */
+/*     color : #E0E0E0; */
+      font-size:1.8rem;
+  text-align:2%;
+}
+
+.top{
+    
+  position: absolute;
+  background: #757575;
+  width:50%;
+  height:115%;
+  color:#424242;
+    margin:-21px -42px;
+    margin-right:1px;
+    margin-left:6px;
+
+}
+#right{
+    border-radius: 50px 0px 0px 30px;
+    margin:-21px 50px;
+}
+#left {
+  right:0;
+    direction:rtl;
+/*    ; يخليه من اليمين لليسار */  
+  border-radius: 0px 50px 30px 0px;
+      margin:-21px -150px;
+}
+h1 {
+ 
+  font-size:3rem;
+  font: italic bold 39px/80px Georgia, serif;
+  
+  padding:10px 10px; /*مسافه بين البدي و الاطار يعني النص وكاني محدده ابي انسخه */ 
+  margin:20px ;
+  text-shadow: 2px 2px #E8F5E9 ;
+
+}
+h3 {
+ 
+  font-size:3rem;
+  font: italic bold 39px/80px Georgia, serif;
+  
+  padding:10px 10px; /*مسافه بين البدي و الاطار يعني النص وكاني محدده ابي انسخه */ 
+  margin:20px 6px;
+  text-shadow: 2px 2px #E8F5E9 ;
+
+}
+
+
+.moveLeft {
+  transform: translateY(-100%);
+   transition-duration: 1s;
+
+}
+
+.moveRight {
+  transform: translateY(101%);
+   transition-duration: 1s;
+
+}
+.moveR {
+  transform: translateX(101%);
+  
+}
+.moveL{
+    transform: translateX(-101%);
+
+
+}
