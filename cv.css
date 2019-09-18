@@ -1,0 +1,10 @@
+*{ 
+  box-sizing: border-box; /*اتوقع يخليه مايشطح برا البوكس ويخليه يطبق كل قوانين html هنا ب css */ 
+}
+body{
+  background-image: url("https://images.unsplash.com/photo-1519332978332-21b7d621d05e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
